@@ -4,14 +4,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Doctor Coco Bean Art Gallery</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
-	
+
+	<body>	
+
 	
 	<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>CONTACT</li></a>
 				</ul>
@@ -19,75 +22,32 @@
 		</div>
 	<!-- END NAV -->
 	
-	
-	
-	
-	<!-- INTRO VIDEO -->
-		<div>
-			<div>
-				<header>Here's a timelapse drawing:</header>
-				<iframe width="400" height="333" src="./video/Video_1.mp4" type="video/mp4"></iframe>
+	<!-- HOME -->
+	<div id="home">
+		<div class="container">
+			<div class="text-center">
+				<span class="head-main">DoctorCocoBeanArt</span>
 			</div>
 		</div>
-	
-	<!-- END INTRO VIDEO -->
-	
-	
-	
-	<!-- CONTACT TOP OF PAGE -->
-	<section>
-			<div>
-				<div>
-					<h1>Would you like me to draw a piece of art for a project you're working on?</h1>
-					<div>
-						<p>
-							Please provide your basic contact information and a brief description of what you would like done for the project below:
-						</P>
-						<div>
-							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="Submit">
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	<!-- END CONTACT TOP OF PAGE -->
+	</div>
+
+	<!-- END HOME -->
 	
 	
 	
 	<!-- GALLERY -->
 	
-	<section>
-			<div id="gallery">
+	<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
-		
-	
-		<!-- PHOTO CONTAINTER 1 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_1.jpg" width="400" height="333" alt="">
-						</div>
-					</div>
-		<!-- END PHOTO CONTAINER 1 -->
-		
 		
 		
 		<!-- PHOTO CONTAINTER 2 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_2.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_2.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 2 -->
@@ -95,62 +55,56 @@
 		
 		
 		<!-- PHOTO CONTAINTER 3 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_3.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_3.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 3 -->
 		
 		
-		
 		<!-- PHOTO CONTAINTER 4 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_4.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_4.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 4 -->
 		
 		
-		
 		<!-- PHOTO CONTAINTER 5 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_5.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_5.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 5 -->
 		
 		
-		
 		<!-- PHOTO CONTAINTER 6 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_6.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_6.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 6 -->
 		
-		
-		
+				
 		<!-- PHOTO CONTAINTER 7 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_7.jpg" width="400" height="333" alt="">
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/Photo_8.jpg" width="300" height="233" alt="">
 						</div>
 					</div>
 		<!-- END PHOTO CONTAINER 7 -->
-		
-		
-		
+
 		<!-- PHOTO CONTAINTER 8 -->
-					<div>
-						<div>
-							<img src="./images/thumb/Photo_8.jpg" width="400" height="333" alt="">
-						</div>
-					</div>
-		<!-- END PHOTO CONTAINER 8 -->
+		<div class="photo-container">
+			<div class="photo">
+				<iframe src="./video/Video_1.mp4" type="video/mp4" width="300" height="233" alt=""></iframe>
+			</div>
+		</div>
+		<!-- END PHOTO CONTAINER 8 -->		
 		
 				</div>
 			</div>
@@ -159,25 +113,26 @@
 	
 	
 	
-	<!-- CONTACT BOTTOM OF PAGE -->
-	<section>
-			<div id="contact">
-				<div>
-					<h1>Would you like me to draw a piece of art for a project you're working on?</h1>
-					<div>
-						<p>
-							Please provide your basic contact information and a brief description of what you would like done for the project below:
+	<!-- CONTACT -->
+	<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Would you like me to draw a piece of art for you?</h1>
+					<div class="reservation">
+						<p class="rsvp=text">
+							Please provide your basic contact information so we can connect up!
 						</P>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
 								<input class="rsvp" type="text" value="Email Address">
 								<input class="rsvp" type="text" value="Phone Number">
+							</form>
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -186,12 +141,12 @@
 				</div>
 			</div>
 		</section>
-	<!-- END CONTACT BOTTOM OF PAGE -->
+	<!-- END CONTACT -->
 	
-	
+</body>	
 	
 	<!-- FOOTER -->
-	<div>
+	<div id="footer">
 		www.DoctorCocoBean.Art &nbsp;|&nbsp; &copy; 2022
 	</div>
 	<!-- END FOOTER -->
